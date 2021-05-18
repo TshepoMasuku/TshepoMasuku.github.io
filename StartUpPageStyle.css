@@ -9,26 +9,24 @@ html {
   background-attachment: fixed;
   background-size: cover;
 }
+
 .header {
-  color: darkviolet;
-  position: absolute;
-  top: 25%;
-  left: 15%;
+  color: rgb(121, 53, 150);
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 25vh;
+  padding: 0 10%;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 3vw;
+  text-align: center;
 }
-.button-container {
-  width: 180px;
-  height: 50px;
+
+.button__container {
   position: absolute;
-  top: 66%;
-  left: 44%;
-}
-.button {
-  width: 180px;
-  height: 50px;
-  background-color: red;
-  border-radius: 300px;
-  border-color: red;
-  font-weight: 900;
+  width: 100%;
+  height: 10%;
+  top: 70vh;
+  display: flex;
+  justify-content: center;
 }
